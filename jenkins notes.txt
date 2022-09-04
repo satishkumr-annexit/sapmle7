@@ -1,0 +1,42 @@
+task:
+
+1.how to change the default home directory ?
+
+2.how to change jenkins port number ?
+
+3.
+
+
+
+jenkins::::::::::
+
+jenkins master :where i installed jenkins it called jenkins master
+
+jenkins home directory :where all the jenkins user and application job/users/nodes/logs/pluggins 
+                        configuration will be available
+                        /var/lib/jenkins
+
+workspace: where all job source code and its outcome artifacts will be stored.
+
+                /var/lib/jenkins/workspace/jobname
+
+build directory: where job configurations will be there.
+
+                     /var/lib/jenkins/job
+
+maven:maven is one of the build tool for java based application
+
+compititors :ant 
+             gradle
+
+maven lifecycle/stages/goles:   mvn package
+validate: syntax verification/dependencies
+compile:convert high level language in to machine level language
+test: if any unit test integrated those will be triggered
+package:this is to create the application
+verify:it will verify the application functionality
+install:it will install created artifacts
+deploy:copy the artifacts in to any other server
+
+
+
